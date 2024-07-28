@@ -29,7 +29,7 @@ async function getBestSellerList(listItem: string) {
 export default function Page() {
   const [hydrate, setHydrate] = useState(false);
   const [listItem, setListItem] = useState<BestSellerBooksInfo>();
-  const pathname = usePathname();
+  const pathname = usePathname().split("/")[1];
   const serachParams = useSearchParams();
   useEffect(() => {
     if (false === hydrate) {
