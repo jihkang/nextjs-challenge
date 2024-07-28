@@ -1,0 +1,13 @@
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container_space {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}

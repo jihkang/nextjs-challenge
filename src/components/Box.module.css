@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box {
+    display: flex;
+    border: 1px solid;
+    width: fit-content;
+    margin: 15px;
+}
+
+.box > a {
+    width: 100%;
+    padding: 0px 5px;
+}
+
+.box > a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
